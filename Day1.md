@@ -85,11 +85,32 @@ https://www.oracle.com/java/technologies/javase-jdk16-downloads.html
 开发工具：JDK, 集成开发工具IDEA（集程序编写、编译、测试、运行、调试等多项功能为一体的开发软件，需要将JDK集成到IDEA）
 
 
-## 2.1 第一个JAVA程序
-
-- IntelliJ IDEA
+## 2.1  IntelliJ IDEA
 
 Java程序可以写在普通记事本、高级记事本Notepad++, 也可以写在集成开发环境IDE（eclipse, IntelliJ IDEA）
 
+## 2.2 HelloWorld程序
+
+一个project = 一个java程序
+
+在src中创建类（java程序的最小单位是类，一个java程序至少拥有一个类）
+
+在类中创建main方法（java程序的入口）
+
+- project中各个目录的作用
+
+.idea和.iml是配置文件，可以隐藏
+
+.src存放源代码，即后缀为.java的文件
+
+.out为程序输出目录，java程序运行的时候，自动生成字节码文件（编译），即.class文件
+
+External Libraries为扩展类库，即java程序编写和运行所依赖的JDK中的类
+
+## 2.3 java程序开发与运行原理
+
+源文件.java --javac.exe编译--> 字节码文件.class --java.exe运行--> 控制台输出
+
+javac.exe和java.exe是jdk中的命令
 
 
