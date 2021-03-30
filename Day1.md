@@ -226,17 +226,19 @@ native strictfp transient volatil assert
 
 字符串常量 ""
 
+字符常量 ''
+
 整数常量 
 
 小数常量 
 
-字符常量 ''
+布尔常量 true false
 
-布尔常量 
-
-空常量
+空常量 null
 
 - 自定义常量
+
+在变量的语法格式前面添加个关键字 final 
 
 ## 3.4 变量
 
