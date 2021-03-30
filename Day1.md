@@ -113,4 +113,144 @@ External Libraries为扩展类库，即java程序编写和运行所依赖的JDK�
 
 javac.exe和java.exe是jdk中的命令
 
+## 2.4 IDEA配置
+
+file --> setting --> editor
+
+font
+
+color schema
+
+file encodings: global encoding, project encoding, default encoding均设置为UTF-8，勾选transparent native-to-ascii convertion（.properties文件不会中文乱码）
+
+file types: 隐藏.iml和.idea配置文件
+
+## 2.5 IDEA常用快捷键
+
+查看println()源代码：ctrl+B或者ctrl+单击
+
+复制选中的内容：ctrl+D
+
+删除选中的内容：ctrl+Y
+
+通过类名定位文件：ctrl+n, 在搜索框中输出
+
+注释：ctrl+/
+
+格式化：ctrl+alt+L
+
+退回上次操作位置：ctrl+alt+←
+
+前进到下一个操作位置：ctrl+alt+→
+
+移动代码行：shift+alt+上下箭头
+
+## 2.6 java语言编码规范
+
+大括号成对、对齐写（右大括号）
+
+左大括号前面有空格
+
+大括号中代码缩进
+
+方法块和程序之间要有空行
+
+并排语句加空格（;表示语句的结束，在;后面加空格）
+
+运算符两侧加空格
+
+
+# 3. java常量、变量
+
+## 3.1 注释
+
+用于介绍、解释说明程序；帮助调试错误（通过将部分代码注释掉）
+
+单行注释 //
+
+多行注释 /*  */
+
+文档注释（对类和方法做解释） /**  */
+
+## 3.2 关键字
+
+被java语言赋予特定含义的单词
+
+组成关键字的字母全部小写，有特殊颜色标记
+
+- 用于定义数据类型的关键字
+
+class interface enum @interface byte short int long char float double boolean void 
+
+- 用于定义数据类型值的关键字
+
+true false null
+
+- 用于定义流程控制的关键字
+
+if else switch case default for while do break continue return
+
+-  用于定义访问权限修饰符的关键字
+
+public protected private
+
+- 用于定义类、函数、变量修饰符的关键字
+
+abstract final static synchronized
+
+- 用于定义类与类之间关系的关键字
+
+extends implements
+
+- 用于定义建立实例、引用实例、判断实例的关键
+
+new this super instanceof
+
+- 用于处理异常的关键字
+
+try catch finally throw throws
+
+- 用于包的关键字
+
+package import 
+
+- 其他关键字
+
+native strictfp transient volatil assert
+
+## 3.3 常量
+
+在程序运行过程中，其值不可以发生改变的量。
+
+- 字面值常量
+
+字符串常量 ""
+
+整数常量 
+
+小数常量 
+
+字符常量 ''
+
+布尔常量 
+
+空常量
+
+- 自定义常量
+
+## 3.4 变量
+
+
+## 3.5 数据类型
+
+
+## 3.6 数据类型转换
+
+
+## 3.7 标识符
+
+
+
+
+
 
